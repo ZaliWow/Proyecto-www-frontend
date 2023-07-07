@@ -1,0 +1,10 @@
+.searchMusic{
+    display: grid;
+    place-items: center;
+    padding-top: 3%;
+    padding-left: 60%;
+}
+@media screen and (max-width: 480px){
+    .searchMusic{
+        padding-left: 1%;
+    }}

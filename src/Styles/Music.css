@@ -1,0 +1,79 @@
+
+.music{
+    display: block;
+    
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    
+    
+}
+@media screen and (max-width: 480px){
+    .music{
+        margin-left: 30%;
+        
+        max-width: 100%;
+        max-height: 100%;
+       
+
+    }}
+.recomendacion{
+    display: flex;
+    margin-left: 5%;
+    height: 10%;
+    width: 100%;  
+}
+.recomendacion h6{
+    margin-left: 5%;
+    margin-right: 0%;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    font-style: italic;
+}
+.but{
+    width: 10%;
+    height: 40%;
+    margin-right: 0%;
+    justify-content: center;
+}
+@media screen and (max-width: 480px){
+    .recomendacion{
+        width: 100px;
+        margin-left: 0%;
+        margin-right: 0%;
+       
+
+    }}
+    
+
+@media screen and (max-width: 480px){
+    
+    .recomendacion audio{
+        width: 200px;
+        height: 100px;
+       
+    }
+    .recomendacion h6{
+        background: blue;
+        
+        height: 100px;
+        width: 100px;
+    }
+    .but{
+    width: 40%;
+    height: 30%;
+    margin-right: 0%;
+    justify-content: center;
+    
+    }
+}
+
+.decoration_letters{
+    margin-top: 1%;
+}
+@media screen and (max-width: 480px){
+    .decoration_letters{
+        margin-top: 9%;
+    }
+}
